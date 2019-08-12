@@ -12,7 +12,7 @@ module.exports.run = async (client, message, args) => {
         const embed = new Discord.RichEmbed()
             .setAuthor('Now hosting NAE Custom Game!')
             .setDescription(`**${host} is now hosting a custom game**`)
-            .addField('Starting in:', '**10 Minutes**', true)
+            .addField('Starting in:', '**5 Minutes**', true)
             .addField('Matchmaking Key:', `**${key}**`, true)
             .addField('Server:', '**North America East _(NAE)_**', true)
             .addField('Gamemode:', '**Arena Solo**')
