@@ -29,6 +29,9 @@ module.exports.run = async (client, message, args) => {
                 msg.react('✅');
             });
     }
+    if(!message.member.hasPermission('ADMINISTRATOR')) {
+        return;
+    }
 
 }
 
